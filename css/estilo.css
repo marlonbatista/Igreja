@@ -1,0 +1,203 @@
+/******************************************************
+	Configurações Padrões
+****************************************************/
+*{
+	margin: 0;
+	padding: 0;
+}
+body, html {
+	margin: 0;
+	font:16px "Potra", sans-serif;
+	color: #777;
+	height: 100%;
+}
+h3{
+	padding: 20px;
+	text-transform: uppercase;
+	color:#DF0101;
+	text-align: center;
+
+}
+p{
+	text-align: center;
+	margin: 20px 70px;
+	padding: 20px;
+	color: #000;
+	font:Franca;
+	font-size: 1.2em;
+}
+.conteudo{
+	color: #777;
+	background-color: white;
+	text-align: justify;
+	padding: 50px 80px;
+}
+
+/******************************************************
+	Efeito Parallax
+******************************************************/
+.caixa, .caixa2, .caixa3, .caixa4 {
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+		height: 100%;
+		position: relative;
+
+
+}
+.caixa{
+	background-image: url(../imagens/imagem1.jpg);
+}
+.caixa2{
+	background-image: url(../imagens/imagem2.jpg);
+}
+.caixa3{
+	background-image: url(../imagens/imagem3.jpg);
+}
+.caixa4{
+	background-image: url(../imagens/imagem4.jpg);
+}
+
+.conteudo-titulo{
+	position: absolute;
+	left: 0%;
+	top: 45%;
+	width: 100%;
+	text-align: center;
+			
+}
+.conteudo-titulo span.titulo{
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #111;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 5px;
+}
+/********************************************************
+	Configurando Menu
+********************************************************/
+#menu1 {
+
+	text-align: right;
+	width: 100%;
+	height: 40px;
+	background-color: #222;
+	font-family: 'Arial',serif;
+
+}
+#menu1 ul{
+	list-style: none;
+	position: static;
+	
+	
+}
+
+#menu1 ul li{
+	width: 140px;
+	float: right;
+	
+}
+#menu1 a {
+	padding: 10px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	background-color: #222;
+	color: #fff;
+	border-radius:15px;
+}
+#menu1 ul li:hover ul{
+	visibility: visible;
+
+}
+#menu1 a:hover{
+	background-color: #f4f4f4;
+	color: #555;
+}
+.menu{
+	width: 100%;
+	height: 40px;
+	background-color: #222;
+	font-family: 'Arial',serif;
+	
+	
+}
+.menu ul{
+	list-style: none;
+	position: static;
+	
+	
+}
+.menu ul li{
+	width: 170px;
+	float: left;
+	
+}
+.menu a {
+	padding: 10px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	background-color: #222;
+	color: #fff;
+	border-radius:15px;
+}
+.menu ul ul{
+	position: absolute;
+	visibility: hidden;
+
+}
+.menu ul li:hover ul{
+	visibility: visible;
+
+}
+.menu a:hover{
+	background-color: #f4f4f4;
+	color: #555;
+}
+.menu ul ul li{
+	float: none;
+	border-bottom: 1px solid #ccc;
+}
+.menu ul ul li a{
+	background-color: #FF8000;
+
+}
+
+label[for="bt_menu"]{
+	padding: 10px;
+	background-color: #222;
+	color: #fff;
+	font-family: 'Arial';
+	text-align: center;
+	font-size: 25px;
+	cursor: pointer;
+	width: 20px;
+	height: 30px;
+}
+#bt_menu{
+	display: none;
+
+}
+label[for="bt_menu"]{
+	display: none;
+}
+/**Logotipo
+*/
+#cabecalho{
+	width: auto;
+	background-color: #FFFFFF;
+	text-align: center;	
+}
+.logo{
+	width: 200px;
+	height: 175px;
+	margin-top: 10px;
+	background-image: url('Imagens/sublogo.png');
+	opacity: 100;
+}
+
+
+
